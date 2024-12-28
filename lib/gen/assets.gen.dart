@@ -27,15 +27,32 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/bird.png
+  AssetGenImage get bird => const AssetGenImage('assets/images/bird.png');
+
+  /// File path: assets/images/cat.png
+  AssetGenImage get cat => const AssetGenImage('assets/images/cat.png');
+
+  /// File path: assets/images/dog.png
+  AssetGenImage get dog => const AssetGenImage('assets/images/dog.png');
+
+  /// File path: assets/images/fish.png
+  AssetGenImage get fish => const AssetGenImage('assets/images/fish.png');
+
   /// File path: assets/images/poster.png
   AssetGenImage get poster => const AssetGenImage('assets/images/poster.png');
+
+  /// File path: assets/images/purple small card.png
+  AssetGenImage get purpleSmallCard =>
+      const AssetGenImage('assets/images/purple small card.png');
 
   /// File path: assets/images/slider image.png
   AssetGenImage get sliderImage =>
       const AssetGenImage('assets/images/slider image.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [poster, sliderImage];
+  List<AssetGenImage> get values =>
+      [bird, cat, dog, fish, poster, purpleSmallCard, sliderImage];
 }
 
 class Assets {
