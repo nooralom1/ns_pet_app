@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/cupertino.dart';
+import 'package:ns_pet_app/feature/fashion_details/screen/fashion_details_screen.dart';
 import 'package:ns_pet_app/feature/home/screen/home.dart';
 import 'package:ns_pet_app/welcome_screen.dart';
 
@@ -10,6 +11,7 @@ final class Routes {
 
   static const String welcomeScreen = '/Welcome';
   static const String homeScreen = '/home';
+  static const String fashionDetails = '/fashionDetails';
 }
 
 final class RouteGenerator {
@@ -103,6 +105,12 @@ final class RouteGenerator {
         return Platform.isAndroid
             ? _FadedTransitionRoute(widget: const HomeScreen(), settings: settings)
             : CupertinoPageRoute(builder: (context) => const HomeScreen());
+      case Routes.fashionDetails:
+        return Platform.isAndroid
+            ? _FadedTransitionRoute(widget: const FashionDetailsScreen(), settings: settings)
+            : CupertinoPageRoute(builder: (context) => const FashionDetailsScreen());
+
+
       default:
         return null;
     }

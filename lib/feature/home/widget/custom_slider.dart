@@ -18,7 +18,7 @@ class CustomSliderWidget extends StatelessWidget {
 
       ///  thi is a demo image ///
       itemBuilder: (BuildContext context, int itemIndex, int pageViewIndex) {
-        return Container(
+        return SizedBox(
           width: size.width,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
