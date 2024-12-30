@@ -49,6 +49,12 @@ class TextFontStyle {
 
   static final text18c000000w700 = GoogleFonts.publicSans(
       color: AppColors.c000000, fontSize: 18.sp, fontWeight: FontWeight.w700);
+  
+  static final text18c010911w700 = GoogleFonts.publicSans(
+      color: AppColors.c010911, fontSize: 18.sp, fontWeight: FontWeight.w700);
+  
+  static final text14c263948w700 = GoogleFonts.publicSans(
+      color: AppColors.c263948, fontSize: 14.sp, fontWeight: FontWeight.w700);
 
 
 

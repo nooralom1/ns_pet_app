@@ -20,8 +20,12 @@ class $AssetsIconsGen {
   AssetGenImage get searchIcon =>
       const AssetGenImage('assets/icons/search_icon.png');
 
+  /// File path: assets/icons/star_yello.png
+  AssetGenImage get starYello =>
+      const AssetGenImage('assets/icons/star_yello.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [notificationIcon, searchIcon];
+  List<AssetGenImage> get values => [notificationIcon, searchIcon, starYello];
 }
 
 class $AssetsImagesGen {
@@ -36,8 +40,50 @@ class $AssetsImagesGen {
   /// File path: assets/images/dog.png
   AssetGenImage get dog => const AssetGenImage('assets/images/dog.png');
 
+  /// File path: assets/images/educational1.png
+  AssetGenImage get educational1 =>
+      const AssetGenImage('assets/images/educational1.png');
+
+  /// File path: assets/images/educational2.png
+  AssetGenImage get educational2 =>
+      const AssetGenImage('assets/images/educational2.png');
+
+  /// File path: assets/images/fashion_details_background.png
+  AssetGenImage get fashionDetailsBackground =>
+      const AssetGenImage('assets/images/fashion_details_background.png');
+
   /// File path: assets/images/fish.png
   AssetGenImage get fish => const AssetGenImage('assets/images/fish.png');
+
+  /// File path: assets/images/food1.png
+  AssetGenImage get food1 => const AssetGenImage('assets/images/food1.png');
+
+  /// File path: assets/images/food2.png
+  AssetGenImage get food2 => const AssetGenImage('assets/images/food2.png');
+
+  /// File path: assets/images/food3.png
+  AssetGenImage get food3 => const AssetGenImage('assets/images/food3.png');
+
+  /// File path: assets/images/game1.png
+  AssetGenImage get game1 => const AssetGenImage('assets/images/game1.png');
+
+  /// File path: assets/images/game2.png
+  AssetGenImage get game2 => const AssetGenImage('assets/images/game2.png');
+
+  /// File path: assets/images/game3.png
+  AssetGenImage get game3 => const AssetGenImage('assets/images/game3.png');
+
+  /// File path: assets/images/p-fashion2.png
+  AssetGenImage get pFashion2 =>
+      const AssetGenImage('assets/images/p-fashion2.png');
+
+  /// File path: assets/images/p_fashion1.png
+  AssetGenImage get pFashion1 =>
+      const AssetGenImage('assets/images/p_fashion1.png');
+
+  /// File path: assets/images/p_fashion3.png
+  AssetGenImage get pFashion3 =>
+      const AssetGenImage('assets/images/p_fashion3.png');
 
   /// File path: assets/images/poster.png
   AssetGenImage get poster => const AssetGenImage('assets/images/poster.png');
@@ -46,13 +92,42 @@ class $AssetsImagesGen {
   AssetGenImage get purpleSmallCard =>
       const AssetGenImage('assets/images/purple small card.png');
 
+  /// File path: assets/images/service1.png
+  AssetGenImage get service1 =>
+      const AssetGenImage('assets/images/service1.png');
+
+  /// File path: assets/images/service2.png
+  AssetGenImage get service2 =>
+      const AssetGenImage('assets/images/service2.png');
+
   /// File path: assets/images/slider image.png
   AssetGenImage get sliderImage =>
       const AssetGenImage('assets/images/slider image.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [bird, cat, dog, fish, poster, purpleSmallCard, sliderImage];
+  List<AssetGenImage> get values => [
+        bird,
+        cat,
+        dog,
+        educational1,
+        educational2,
+        fashionDetailsBackground,
+        fish,
+        food1,
+        food2,
+        food3,
+        game1,
+        game2,
+        game3,
+        pFashion2,
+        pFashion1,
+        pFashion3,
+        poster,
+        purpleSmallCard,
+        service1,
+        service2,
+        sliderImage
+      ];
 }
 
 class Assets {
