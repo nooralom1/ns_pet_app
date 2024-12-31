@@ -302,7 +302,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     }),
               ),
             ),
-            UIHelper.verticalSpace(16.h),
+            UIHelper.verticalSpace(120.h),
           ],
         ),
       ),

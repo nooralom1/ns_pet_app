@@ -13,6 +13,9 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
+  /// Color: #474672
+  static const Color allPrimaryColor = Color(0xFF474672);
+
   /// Color: #FBEDEC
   static const Color bgColor = Color(0xFFFBEDEC);
 

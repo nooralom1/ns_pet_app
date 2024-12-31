@@ -6,7 +6,7 @@ class SplashController extends GetxController{
 
   goNextPage() async {
     await Future.delayed(const Duration(seconds: 2));
-    NavigationService.navigateTo(Routes.homeScreen);
+    NavigationService.navigateTo(Routes.navigation);
   }
 
   @override
