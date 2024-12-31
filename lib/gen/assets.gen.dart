@@ -33,6 +33,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/pet-leg.png
   AssetGenImage get petLeg => const AssetGenImage('assets/icons/pet-leg.png');
 
+  /// File path: assets/icons/search.png
+  AssetGenImage get search => const AssetGenImage('assets/icons/search.png');
+
   /// File path: assets/icons/search_icon.png
   AssetGenImage get searchIcon =>
       const AssetGenImage('assets/icons/search_icon.png');
@@ -52,6 +55,7 @@ class $AssetsIconsGen {
         notificationIcon,
         pMart,
         petLeg,
+        search,
         searchIcon,
         service,
         starYello
@@ -64,8 +68,14 @@ class $AssetsImagesGen {
   /// File path: assets/images/bird.png
   AssetGenImage get bird => const AssetGenImage('assets/images/bird.png');
 
+  /// File path: assets/images/care.png
+  AssetGenImage get care => const AssetGenImage('assets/images/care.png');
+
   /// File path: assets/images/cat.png
   AssetGenImage get cat => const AssetGenImage('assets/images/cat.png');
+
+  /// File path: assets/images/clothes.png
+  AssetGenImage get clothes => const AssetGenImage('assets/images/clothes.png');
 
   /// File path: assets/images/dog.png
   AssetGenImage get dog => const AssetGenImage('assets/images/dog.png');
@@ -89,6 +99,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/fish.png
   AssetGenImage get fish => const AssetGenImage('assets/images/fish.png');
 
+  /// File path: assets/images/food.png
+  AssetGenImage get food => const AssetGenImage('assets/images/food.png');
+
   /// File path: assets/images/food1.png
   AssetGenImage get food1 => const AssetGenImage('assets/images/food1.png');
 
@@ -98,6 +111,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/food3.png
   AssetGenImage get food3 => const AssetGenImage('assets/images/food3.png');
 
+  /// File path: assets/images/game.png
+  AssetGenImage get game => const AssetGenImage('assets/images/game.png');
+
   /// File path: assets/images/game1.png
   AssetGenImage get game1 => const AssetGenImage('assets/images/game1.png');
 
@@ -106,6 +122,15 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/game3.png
   AssetGenImage get game3 => const AssetGenImage('assets/images/game3.png');
+
+  /// File path: assets/images/kennel.png
+  AssetGenImage get kennel => const AssetGenImage('assets/images/kennel.png');
+
+  /// File path: assets/images/medical.png
+  AssetGenImage get medical => const AssetGenImage('assets/images/medical.png');
+
+  /// File path: assets/images/other.png
+  AssetGenImage get other => const AssetGenImage('assets/images/other.png');
 
   /// File path: assets/images/p-fashion2.png
   AssetGenImage get pFashion2 =>
@@ -138,22 +163,36 @@ class $AssetsImagesGen {
   AssetGenImage get sliderImage =>
       const AssetGenImage('assets/images/slider image.png');
 
+  /// File path: assets/images/text filled.png
+  AssetGenImage get textFilled =>
+      const AssetGenImage('assets/images/text filled.png');
+
+  /// File path: assets/images/walk.png
+  AssetGenImage get walk => const AssetGenImage('assets/images/walk.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
         bird,
+        care,
         cat,
+        clothes,
         dog,
         educational1,
         educational2,
         fashionDetailsBackground,
         fashionImage,
         fish,
+        food,
         food1,
         food2,
         food3,
+        game,
         game1,
         game2,
         game3,
+        kennel,
+        medical,
+        other,
         pFashion2,
         pFashion1,
         pFashion3,
@@ -161,7 +200,9 @@ class $AssetsImagesGen {
         purpleSmallCard,
         service1,
         service2,
-        sliderImage
+        sliderImage,
+        textFilled,
+        walk
       ];
 }
 
