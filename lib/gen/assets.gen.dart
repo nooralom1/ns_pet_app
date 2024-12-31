@@ -12,20 +12,50 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/backicon.png
+  AssetGenImage get backicon =>
+      const AssetGenImage('assets/icons/backicon.png');
+
+  /// File path: assets/icons/carticon.png
+  AssetGenImage get carticon =>
+      const AssetGenImage('assets/icons/carticon.png');
+
+  /// File path: assets/icons/home.png
+  AssetGenImage get home => const AssetGenImage('assets/icons/home.png');
+
   /// File path: assets/icons/notification_icon.png
   AssetGenImage get notificationIcon =>
       const AssetGenImage('assets/icons/notification_icon.png');
 
+  /// File path: assets/icons/p_mart.png
+  AssetGenImage get pMart => const AssetGenImage('assets/icons/p_mart.png');
+
+  /// File path: assets/icons/pet-leg.png
+  AssetGenImage get petLeg => const AssetGenImage('assets/icons/pet-leg.png');
+
   /// File path: assets/icons/search_icon.png
   AssetGenImage get searchIcon =>
       const AssetGenImage('assets/icons/search_icon.png');
+
+  /// File path: assets/icons/service.png
+  AssetGenImage get service => const AssetGenImage('assets/icons/service.png');
 
   /// File path: assets/icons/star_yello.png
   AssetGenImage get starYello =>
       const AssetGenImage('assets/icons/star_yello.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [notificationIcon, searchIcon, starYello];
+  List<AssetGenImage> get values => [
+        backicon,
+        carticon,
+        home,
+        notificationIcon,
+        pMart,
+        petLeg,
+        searchIcon,
+        service,
+        starYello
+      ];
 }
 
 class $AssetsImagesGen {
@@ -51,6 +81,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/fashion_details_background.png
   AssetGenImage get fashionDetailsBackground =>
       const AssetGenImage('assets/images/fashion_details_background.png');
+
+  /// File path: assets/images/fashion_image.png
+  AssetGenImage get fashionImage =>
+      const AssetGenImage('assets/images/fashion_image.png');
 
   /// File path: assets/images/fish.png
   AssetGenImage get fish => const AssetGenImage('assets/images/fish.png');
@@ -112,6 +146,7 @@ class $AssetsImagesGen {
         educational1,
         educational2,
         fashionDetailsBackground,
+        fashionImage,
         fish,
         food1,
         food2,

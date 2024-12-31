@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:ns_pet_app/feature/fashion_details/screen/fashion_details_screen.dart';
 import 'package:ns_pet_app/feature/home/screen/home.dart';
+import 'package:ns_pet_app/navigation_screen.dart';
 import 'package:ns_pet_app/welcome_screen.dart';
 
 final class Routes {
@@ -10,6 +11,7 @@ final class Routes {
   static Routes get instance => _routes;
 
   static const String welcomeScreen = '/Welcome';
+  static const String navigation = '/Navigation';
   static const String homeScreen = '/home';
   static const String fashionDetails = '/fashionDetails';
 }
@@ -48,12 +50,12 @@ final class RouteGenerator {
       //       ? _FadedTransitionRoute(
       //           widget: ChangePasswordScreen(), settings: settings)
       //       : CupertinoPageRoute(builder: (context) => ChangePasswordScreen());
-      // case Routes.navigationScreen:
-      //   return Platform.isAndroid
-      //       ? _FadedTransitionRoute(
-      //           widget: const NavigationScreen(), settings: settings)
-      //       : CupertinoPageRoute(
-      //           builder: (context) => const NavigationScreen());
+      case Routes.navigation:
+        return Platform.isAndroid
+            ? _FadedTransitionRoute(
+                widget: const NavigationScreen(), settings: settings)
+            : CupertinoPageRoute(
+                builder: (context) => const NavigationScreen());
       // case Routes.addEvent:
       //   return Platform.isAndroid
       //       ? _FadedTransitionRoute(

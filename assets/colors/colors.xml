@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
+  <color name="allPrimaryColor">#474672</color>
   <color name="cFFFFFF">#FFFFFF</color>
   <color name="bgColor">#FBEDEC</color>
   <color name="c000000">#000000</color>
