@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ns_pet_app/constant/text_font_style.dart';
 import 'package:ns_pet_app/feature/home/screen/home.dart';
+import 'package:ns_pet_app/feature/p_mart/screen/p_mart_screen.dart';
 import 'package:ns_pet_app/gen/assets.gen.dart';
 import 'package:ns_pet_app/gen/colors.gen.dart';
 
@@ -35,7 +36,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
     /// widget list
     final List<Widget> bottomBarPages = [
       const HomeScreen(),
-      const Page3(),
+      const PMartScreen(),
       const Page4(),
       const Page5(),
     ];
