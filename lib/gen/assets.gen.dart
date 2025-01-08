@@ -77,6 +77,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/clothes.png
   AssetGenImage get clothes => const AssetGenImage('assets/images/clothes.png');
 
+  /// File path: assets/images/discountbackground.png
+  AssetGenImage get discountbackground =>
+      const AssetGenImage('assets/images/discountbackground.png');
+
   /// File path: assets/images/dog.png
   AssetGenImage get dog => const AssetGenImage('assets/images/dog.png');
 
@@ -98,6 +102,18 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/fish.png
   AssetGenImage get fish => const AssetGenImage('assets/images/fish.png');
+
+  /// File path: assets/images/flashsale.png
+  AssetGenImage get flashsale =>
+      const AssetGenImage('assets/images/flashsale.png');
+
+  /// File path: assets/images/flashsale2.png
+  AssetGenImage get flashsale2 =>
+      const AssetGenImage('assets/images/flashsale2.png');
+
+  /// File path: assets/images/flashsale3.png
+  AssetGenImage get flashsale3 =>
+      const AssetGenImage('assets/images/flashsale3.png');
 
   /// File path: assets/images/food.png
   AssetGenImage get food => const AssetGenImage('assets/images/food.png');
@@ -176,12 +192,16 @@ class $AssetsImagesGen {
         care,
         cat,
         clothes,
+        discountbackground,
         dog,
         educational1,
         educational2,
         fashionDetailsBackground,
         fashionImage,
         fish,
+        flashsale,
+        flashsale2,
+        flashsale3,
         food,
         food1,
         food2,
