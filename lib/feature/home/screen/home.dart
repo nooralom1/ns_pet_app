@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: EdgeInsets.only(left: 20.w),
               child: SizedBox(
-                height: size.height * 0.24,
+                height: 234.h,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     physics: const BouncingScrollPhysics(),
@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Assets.icons.starYello.path,
                                 width: 24.w,
                               )
-                            : const SizedBox(),
+                            : const SizedBox(), bgColor: Colors.red,
                       );
                     }),
               ),
@@ -148,7 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Padding(
               padding: EdgeInsets.only(left: 20.w),
               child: SizedBox(
-                height: size.height * 0.24,
+                height: size.height * 0.3,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     physics: const BouncingScrollPhysics(),
@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemBuilder: (context, index) {
                       return EducationalItemContainer(
                         image: service[index].image,
-                        text: service[index].name,
+                        text: service[index].name, bgColor: Colors.red,
                       );
                     }),
               ),

@@ -209,7 +209,99 @@ class _PMartScreenState extends State<PMartScreen> {
               onTap: () {},
             ),
             UIHelper.verticalSpace(16.h),
-            Image.asset(Assets.images.pFashion1.path),
+            Image.asset(
+              Assets.images.salePetsDay.path,
+              height: 188.h,
+              width: double.infinity,
+              fit: BoxFit.fill,
+            ),
+            UIHelper.verticalSpace(32.h),
+            Text(
+              "Recommened",
+              style: TextFontStyle.text18c010911w700,
+            ),
+            UIHelper.verticalSpace(16.h),
+            SizedBox(
+              child: GridView.builder(
+                padding: EdgeInsets.zero,
+                  physics: const NeverScrollableScrollPhysics(),
+                  primary: false,
+                  shrinkWrap: true,
+                  itemCount: 5,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      crossAxisSpacing: 10.w,
+                      childAspectRatio: 0.7,
+                      mainAxisSpacing: 10.h),
+                  itemBuilder: (context, index) {
+                    return Stack(
+                      clipBehavior: Clip.none,
+                      fit: StackFit.loose,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                              color: AppColors.cFFFFFF,
+                              borderRadius: BorderRadius.circular(12.r)),
+                          child: Column(
+                            children: [
+                              Container(
+                                height: 100.h,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(12.r),
+                                        topRight: Radius.circular(12.r)),
+                                    color: AppColors.allPrimaryColor),
+                              ),
+                              Padding(
+                                padding: EdgeInsets.all(8.0.sp),
+                                child: Column(
+                                  crossAxisAlignment:
+                                      CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("10",
+                                            style: TextFontStyle
+                                                .text14cD423238w700),
+                                        Text(
+                                          "10",
+                                          style: TextStyle(
+                                            color: Color(0xFF010911),
+                                            fontSize: 14,
+                                            fontFamily: 'SF Pro',
+                                            fontWeight: FontWeight.w500,
+                                            decoration:
+                                                TextDecoration.lineThrough,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                    UIHelper.verticalSpace(12.h),
+                                    Text(
+                                      "name",
+                                      style: TextFontStyle.text12c263948w400,
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ],
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                        Positioned(
+                            bottom: 80.h,
+                            child: Image.asset(
+                              Assets.images.cat.path,
+                              width: 115.w,
+                              height: 137.76.h,
+                            )),
+                      ],
+                    );
+                  }),
+            ),
             UIHelper.verticalSpace(120.h),
           ],
         ),
