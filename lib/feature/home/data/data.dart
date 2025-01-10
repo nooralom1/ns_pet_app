@@ -1,5 +1,6 @@
 import 'package:ns_pet_app/feature/home/model/home_models.dart';
 import 'package:ns_pet_app/gen/assets.gen.dart';
+import 'package:ns_pet_app/gen/colors.gen.dart';
 
 List pets = [
   Assets.images.dog.path,
@@ -11,23 +12,23 @@ List pets = [
 List<Educational> educational = [
   Educational(
       image: Assets.images.educational1.path,
-      name: "Health care for your pets service"),
+      name: "Health care for your pets service", bgColor: AppColors.cB1E0D8),
   Educational(
       image: Assets.images.educational2.path,
-      name: "Corneal Ulcers in Cats and Dogs"),
+      name: "Corneal Ulcers in Cats and Dogs", bgColor: AppColors.cB1E0D8),
   Educational(
       image: Assets.images.educational1.path,
-      name: "Health care for your pets service"),
+      name: "Health care for your pets service", bgColor: AppColors.cB1E0D8),
   Educational(
       image: Assets.images.educational2.path,
-      name: "Corneal Ulcers in Cats and Dogs"),
+      name: "Corneal Ulcers in Cats and Dogs", bgColor: AppColors.cB1E0D8),
 ];
 
 List<Educational> service = [
-  Educational(image: Assets.images.service1.path, name: "Bathing pets service"),
-  Educational(image: Assets.images.service2.path, name: "Play with pet"),
-  Educational(image: Assets.images.service1.path, name: "Bathing pets service"),
-  Educational(image: Assets.images.service2.path, name: "Play with pet"),
+  Educational(image: Assets.images.service1.path, name: "Bathing pets service", bgColor: AppColors.cABDCFC),
+  Educational(image: Assets.images.service2.path, name: "Play with pet", bgColor: AppColors.cFBAE9E),
+  Educational(image: Assets.images.service1.path, name: "Bathing pets service", bgColor: AppColors.cABDCFC),
+  Educational(image: Assets.images.service2.path, name: "Play with pet", bgColor: AppColors.cFBAE9E),
 ];
 
 List<PFasshion> fashion = [

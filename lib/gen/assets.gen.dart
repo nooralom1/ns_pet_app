@@ -167,6 +167,10 @@ class $AssetsImagesGen {
   AssetGenImage get purpleSmallCard =>
       const AssetGenImage('assets/images/purple small card.png');
 
+  /// File path: assets/images/salePetsDay.png
+  AssetGenImage get salePetsDay =>
+      const AssetGenImage('assets/images/salePetsDay.png');
+
   /// File path: assets/images/service1.png
   AssetGenImage get service1 =>
       const AssetGenImage('assets/images/service1.png');
@@ -218,6 +222,7 @@ class $AssetsImagesGen {
         pFashion3,
         poster,
         purpleSmallCard,
+        salePetsDay,
         service1,
         service2,
         sliderImage,
